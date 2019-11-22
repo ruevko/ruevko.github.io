@@ -1,2 +1,5 @@
 # ruevko.github.io
-Saludos, este es el sitio personal de Rafael Castro.
+
+Este repositorio contiene [el sitio personal](https://ruevko.github.io) de Rafael Castro.
+
+Probablemente viniste a visitar [La Galería Hexagonal](https://ruevko.github.io/hexagonal).
