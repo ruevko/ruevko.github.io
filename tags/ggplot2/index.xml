@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ggplot2 on La Galería Hexagonal</title>
+    <link>https://ruevko.github.io/tags/ggplot2/</link>
+    <description>Recent content in ggplot2 on La Galería Hexagonal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Thu, 22 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ruevko.github.io/tags/ggplot2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Esto es una Prueba</title>
+      <link>https://ruevko.github.io/post/2018/11/22-esto-prueba/</link>
+      <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ruevko.github.io/post/2018/11/22-esto-prueba/</guid>
+      <description>Este &lt;strong&gt;post&lt;/strong&gt; presenta varias &lt;strong&gt;opciones&lt;/strong&gt; diferentes. Contiene: una imagen &lt;em&gt;cover&lt;/em&gt;, un &lt;em&gt;TOC&lt;/em&gt; que SÍ funciona, un gráfico básico de &lt;code&gt;R base&lt;/code&gt;, una imagen de la &lt;em&gt;world wide web&lt;/em&gt;, varios títulos, varias listas, varios formatos y varias ecuaciones.</description>
+    </item>
+    
+  </channel>
+</rss>
