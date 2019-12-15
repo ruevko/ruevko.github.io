@@ -1,0 +1,1 @@
+rmarkdown::render("README.md", rmarkdown::html_document(theme = "yeti"), "index.html")
