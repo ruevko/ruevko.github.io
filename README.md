@@ -2,6 +2,10 @@
 title: ruevko.github.io
 ---
 
-Este [repositorio](https://github.com/ruevko/ruevko.github.io) contiene [el sitio personal](https://ruevko.github.io) de Rafael Castro.
+Este es [el sitio personal](https://ruevko.github.io) de Rafael Castro.
 
-- El blog lo encuentras en [La Galería Hexagonal](https://ruevko.github.io/hexagonal).
+- Mi blog lo encuentras en [La Galería Hexagonal](https://ruevko.github.io/hexagonal).
+
+- Comparto [mi presentación](https://ruevko.github.io/2020-ODDQ) en el Open Data Day Quito 2020.
+
+Contacto: @ruevko / castro.z.r2@gmail.com
