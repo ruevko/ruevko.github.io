@@ -1,51 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&display=swap&subset=latin');
 
 /* Base */
-html, body {
-  height: 100%;
-  background-color: #333;
+@media (min-height: 467px) {
+  html, body {
+    height: 100%;
+  }
 }
 
 body {
   display: -ms-flexbox;
   display: flex;
-  color: #fff;
-  text-shadow: .1rem .1rem .1rem rgba(0, 0, 0, .5);
+  background-color: #333;
   box-shadow: inset 0 0 10rem rgba(0, 0, 0, .5);
+  text-shadow: .1rem .1rem .1rem rgba(0, 0, 0, .5);
   font-family: 'Merriweather';
-}
-
-/* .cover {
-  padding: 0 1.5rem;
-} */
-
-.cover-container {
-  max-width: 64em;
+  color: #fff;
 }
 
 /* Footer */
-.mastfoot {
-  color: rgba(255, 255, 255, .5);
+footer {
   font-family: 'Montserrat';
-  margin-top: 2rem;
+  color: rgba(255, 255, 255, .5);
 }
 
 /* Header */
-.masthead {
-  margin-bottom: 2rem;
-}
-
 .masthead-brand {
   margin-bottom: 0;
 }
 
 @media (min-width: 48em) {
-  .mastfoot {
-    margin-top: auto;
-  }
-  .masthead {
-    margin-bottom: auto;
-  }
   .masthead-brand {
     float: left;
   }
