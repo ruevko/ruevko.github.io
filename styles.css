@@ -1,29 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&display=swap&subset=latin');
 
 /* Base */
-@media (min-height: 467px) {
-  html, body {
-    height: 100%;
-  }
-}
 
 body {
-  display: -ms-flexbox;
-  display: flex;
+  height: 100vh;
+  width: 100vw;
   background-color: #333;
-  box-shadow: inset 0 0 10rem rgba(0, 0, 0, .5);
-  text-shadow: .1rem .1rem .1rem rgba(0, 0, 0, .5);
-  font-family: 'Merriweather';
-  color: #fff;
+  box-shadow: inset 0 0 3rem 3px #000;
 }
 
-/* Footer */
+.in-body {
+  height: 100%;
+  max-width: 64rem;
+  overflow-y: auto;
+  color: #fff;
+  font-family: 'Merriweather';
+}
+
+h1, h2, h3, h4, p {
+  text-shadow: 2px 2px 2px #000;
+}
+
 footer {
+  color: #fff8;
   font-family: 'Montserrat';
-  color: rgba(255, 255, 255, .5);
 }
 
 /* Header */
+
 .masthead-brand {
   margin-bottom: 0;
 }
@@ -71,9 +75,6 @@ footer {
 }
 
 /* Misc */
-.nosh {
-  text-shadow: none;
-}
 
 .crop {
   box-shadow: 3px 3px 9px rgba(0, 0, 0, .5);
@@ -85,8 +86,34 @@ footer {
   margin-top: .5rem;
 }
 
+/* Carousel */
 @media (min-width: 36em) {
   .cover-heading {
     margin-top: 0;
   }
+}
+/*
+@media (min-width: 40em) {
+  .carousel-caption {
+    margin-bottom: 1.25rem;
+    font-size: 200%;
+    line-height: 1.4;
+  }
+}
+*/
+.carousel-item {
+  height: 20rem; /* padding-right: 2px; for 480*/
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 20rem;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  background-color: yellow; /* rgba(51, 51, 51, .5); */
+  width: 5%;
 }
