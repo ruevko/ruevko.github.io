@@ -1,4 +1,4 @@
-/* Body */
+/* body */
 
 body {
   height: 100vh;
@@ -53,14 +53,14 @@ h2, h3, h4 {
   }
 }
 
-/* Link */
+/* link */
 
 a {
   color: unset;
   font-weight: 700;
 }
 
-a:focus, a:hover {
+a:focus, a:hover, .feed-item-title a:hover::after {
   color: #fff;
   text-decoration: none;
 }
@@ -83,27 +83,11 @@ a:focus, a:hover {
 }
 
 .feed-item-title a::after {
-  content: " [ Leer ]";
+  content: " [Leer]";
   color: #fff8;
 }
 
-.feed-item-title a::after:hover {
-  color: #fff; /* ? */
-}
-
-/* Misc */
-
-.crop {
-  box-shadow: 3px 3px 9px rgba(0, 0, 0, .5);
-  overflow: hidden;
-  margin: 0;
-}
-
-.crop > img {
-  width: 100%;
-}
-
-/* Carousel */
+/* caro */
 
 .carousel-item {
   height: 22rem;
@@ -128,15 +112,27 @@ a:focus, a:hover {
   width: 5%;
 }
 
-/* Bootstrap */
+/* misc */
 
-.col-sm {
+.row {
+  margin: 0;
+  height: 100%;
+}
+
+.col-sm, .col-sm-3 {
   margin: auto 0;
 }
 
-.row {
-  height: 100%;
+img {
+  width: 100%;
+  user-drag: none;
+  -webkit-user-drag: none;
+}
+
+figure.crop {
   margin: 0;
+  overflow: hidden;
+  box-shadow: 4px 4px 8px #0008;
 }
 
 /* test */
