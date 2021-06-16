@@ -15,6 +15,11 @@ body {
   font-family: 'Merriweather';
 }
 
+code {
+  color: unset;
+  font-size: 104%;
+}
+
 h2, h3, h4 {
   color: #fff;
   text-shadow: 2px 2px 2px #000;
@@ -83,7 +88,7 @@ a:focus, a:hover, .feed-item-title a:hover::after {
 }
 
 .feed-item-title a::after {
-  content: " [Leer]";
+  content: " | Leer";
   color: #fff8;
 }
 
@@ -105,6 +110,18 @@ a:focus, a:hover, .feed-item-title a:hover::after {
   left: 0;
   min-width: 100%;
   height: 20rem;
+}
+
+.carousel-indicators li {
+  width: 50px;
+  height: 0.2rem;
+  margin: 0 0.5rem;
+  opacity: 1;
+  background-color: #fff8;
+}
+
+.carousel-indicators li.active, .carousel-indicators li:hover {
+  background-color: #fff;
 }
 
 .carousel-control-prev, .carousel-control-next {
