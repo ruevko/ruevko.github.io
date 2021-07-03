@@ -17,6 +17,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
     <!-- custom CSS -->
     <link rel="stylesheet" href="styles.css">
+    <!-- custom JS -->
+    <script type="text/javascript">
+      window.onload = setTimeout(fadeIn, 200);
+      function fadeIn(){
+        fadeDiv = document.getElementById('myCarousel');
+        fadeDiv.classList.add('fade-show');
+        fadeDiv.classList.remove('fade-hide');
+      }
+    </script>
   </head>
   <body>
     <div class="p-3 mx-auto d-flex flex-column in-body">
@@ -32,7 +41,7 @@
       </header>
     <!-- bodyer -->
       <main class="my-3" role="main">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide fade-hide" data-ride="carousel">
           <div class="carousel-inner">
 
 <div class="carousel-item active">
@@ -92,7 +101,7 @@
         <i class="fab fa-creative-commons"></i>
         <i class="fab fa-creative-commons-by"></i>
         <i class="fab fa-creative-commons-sa"></i>
-        2020 (CC-BY-SA-4.0)<br>by Rafael Castro
+        2021 (CC BY&ndash;SA 4.0)<br>by Rafael Castro
         <i class="fas fa-lg fa-crow"></i>
       </footer>
     </div>
