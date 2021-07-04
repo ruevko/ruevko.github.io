@@ -19,29 +19,34 @@
     <link rel="stylesheet" href="styles.css">
     <!-- custom JS -->
     <script type="text/javascript">
-      window.onload = setTimeout(fadeIn, 200);
-      function fadeIn(){
-        fadeDiv = document.getElementById('myCarousel');
-        fadeDiv.classList.add('fade-show');
-        fadeDiv.classList.remove('fade-hide');
+      function fadeIn(ele){
+        ele = document.getElementsByTagName(ele)[0];
+        ele.classList.add('fade-show');
+        ele.classList.remove('fade-hide');
       }
+      function fadeInEles(){
+        fadeIn('header');
+        setTimeout(fadeIn, 300, 'main');
+        setTimeout(fadeIn, 700, 'footer');
+      }
+      window.onload = fadeInEles
     </script>
   </head>
   <body>
     <div class="p-3 mx-auto d-flex flex-column in-body">
     <!-- header -->
-      <header class="mb-auto">
+      <header class="mb-auto fade-hide">
         <h2 class="text-center">Rafael Castro | Mapas & Datos</h2>
         <nav class="nav justify-content-center">
           <a href="." class="active">Inicio</a>
           <a href="hexagonal">Blog</a>
-          <a href="//github.com/ruevko">Github</a>
+          <a href="//github.com/ruevko">GitHub</a>
           <a href="//twitter.com/ruevko">Twitter</a>
         </nav>
       </header>
     <!-- bodyer -->
-      <main class="my-3" role="main">
-        <div id="myCarousel" class="carousel slide fade-hide" data-ride="carousel">
+      <main class="my-3 fade-hide" role="main">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
 
 <div class="carousel-item active">
@@ -97,7 +102,7 @@
         </div>
       </main>
     <!-- footer -->
-      <footer class="mt-auto text-center" style="font-family: Montserrat;">
+      <footer class="mt-auto text-center fade-hide" style="font-family: Montserrat;">
         <i class="fab fa-creative-commons"></i>
         <i class="fab fa-creative-commons-by"></i>
         <i class="fab fa-creative-commons-sa"></i>
