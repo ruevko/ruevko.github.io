@@ -70,11 +70,30 @@
 
 <div class="carousel-item">
   <div class="row">
-    <div class="col-sm text-right">
-      <script src="//rss.bloople.net/?url=https%3A%2F%2Fruevko.github.io%2Fhexagonal%2Findex.xml&detail=12&limit=3&showtitle=false&type=js"></script>
+    <div id="rss" class="col-sm text-right">
+      <script type="text/javascript">
+        fetch('https://ruevko.github.io/hexagonal/index.xml')
+          .then(response => response.text())
+          .then(str => new window.DOMParser().parseFromString(str, 'text/xml'))
+          .then(data => {
+            const ITEMS = data.querySelectorAll('item');
+            let TEXT = `<p>Últimos artículos en mi blog, La Galería Hexagonal:</p>`;
+            for (let i = 0; i < 3; i++) {
+              TEXT +=
+                `<h4 class="feed-item-title"><a href="
+                ${ITEMS[i].querySelector('link').innerHTML}">
+                ${ITEMS[i].querySelector('title').innerHTML}
+                </a></h4>
+                <p class="feed-item-desc">
+                ${ITEMS[i].querySelector('description').innerHTML.split(" ").splice(0,12).join(" ")}
+                ...</p>`;
+            }
+            document.getElementById('rss').insertAdjacentHTML('afterbegin', TEXT);
+          });
+      </script>
     </div>
     <div class="col-sm-3">
-      <img src="//ruevko.github.io/hexagonal/logo.png">
+      <img src="//ruevko.github.io/hexagonal/logo.png" alt="La Galería Hexagonal">
     </div>
   </div>
 </div>
