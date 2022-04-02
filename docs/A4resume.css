@@ -1,0 +1,9 @@
+/*
+# adapted from built-in resume CSS shipped with pagedown 0.17
+cat(readLines(pagedown:::pkg_resource('css', 'resume.css')), sep = "\n")
+*/
+
+@page{
+  size: A4 portrait;
+  margin: 25mm 10mm;
+}
