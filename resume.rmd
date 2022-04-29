@@ -1,0 +1,225 @@
+---
+title: "Roger Castro Zambrano's resume"
+author: "Roger Rafael Castro Zambrano"
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    anchor_sections:
+      depth: 0
+    css: A4resume.css
+    lib_dir: docs/lib
+    mathjax: NULL
+    self_contained: FALSE
+---
+
+```{r, echo=FALSE}
+link_output <- \(link, text = "open access") { paste0("[[", text, "]](", link, ")") }
+lod <- \(x) { paste0("https://doi.org/", x) |> link_output("DOI") }
+lol <- \(x) { paste0("https://www.researchgate.net/publication/", x) |> link_output() }
+lor <- \(x) { paste0("https://github.com/ruevko/", x) |> link_output("repository") }
+los <- \(x) { paste0("https://ruevko.github.io/slides/", x) |> link_output("slides") }
+low <- \(x) { link_output(x, "website") }
+
+# write bio
+# lists 2nd lines
+# write portfolio
+```
+
+# Aside
+
+![](https://github.com/identicons/ruevko.png)
+
+## Contact
+
+* <i class="fas fa-envelope-square"></i> roger-castro-zambrano@pm.me
+* <i class="fas fa-envelope-square"></i> rrcastro1@espe.edu.ec
+* <i class="fab fa-twitter-square"></i> https://twitter.com/ruevko
+* <i class="fab fa-github-square"></i> https://github.com/ruevko
+* <i class="fas fa-external-link-square-alt"></i> https://ruevko.github.io
+
+## Skills
+
+* Programming with R language, RStudio IDE, the tidyverse, and geospatial R packages (sf, raster, spdep,
+  tmap, among others)
+
+* Use of GIS (QGIS, ArcMap) and remote sensing (ERDAS) software
+
+* Processing OpenStreetMap data and querying with the Overpass API
+
+* Use of git and management of GitHub repositories and workflows
+
+* Use of various programming tools (Bash, Ubuntu, R Markdown, Hugo, Jekyll, SQL, among others)
+
+* Native Spanish and advanced English (Grade A in the Certificate in Advanced English) speaker
+
+## Disclaimer
+
+Last updated on `r as.character(Sys.Date(), "%Y / %m / %d")`
+
+Made with the R package [pagedown](https://github.com/rstudio/pagedown)
+
+# Main
+
+## Roger Rafael Castro Zambrano {#title}
+
+## Education {.hasAnchor data-icon=graduation-cap data-concise=false}
+
+### Geographic and Environmental Engineer
+
+University of the Armed Forces -- ESPE
+
+Sangolquí, EC
+
+2019 / 07 - 2012 / 09
+
+Thesis "Evaluación de la Exactitud Posicional Horizontal e Inferencia de la Escala sobre Datos Libres
+OSM en Administraciones Zonales del DMQ"
+[[repository]](http://repositorio.espe.edu.ec/handle/21000/20562)
+`r los("2019/exactitud-posicional-horizontal-e-inferencia-de-escala-sobre-datos-libres-osm-post")`
+
+## Experience {.hasAnchor data-icon=suitcase data-concise=false}
+
+### Surveyor
+
+Constructora Inmobiliaria R&M Ltd.
+
+Manta, EC
+
+current - 2021 / 05
+
+Planimetric and topographic surveying of urban plots
+
+### Intern
+
+Ecuadorian Space Institute -- IEE
+
+Quito, EC
+
+2018 / 03 - 2018 / 01
+
+Project "Implementation of a technological infrastructure for training in research lines of the IEE"
+
+* Collection of information and preparation of training materials for a virtual course about improving
+  the quality of satellite images
+* Preparation of evaluating materials according to IEE format
+
+Project "Determination of potential mass movements for disaster prevention using DTM and satellite
+images in a section of the Alóag -- Santo Domingo road"
+
+* Collection of information, elaboration of slope map according to the DTM, and reclassification in
+  slope ranges
+* Elaboration of land coverage maps for two epochs, determination of coverage changes, and analysis
+  according to mass movement events that have occurred on the road
+* Elaboration of a cartographic model to determine potential mass movements and analysis of results
+
+### Intern
+
+Technical Cooperation between Ecuador and the Federal Republic of Germany -- GIZ
+
+Quito, EC
+
+2017 / 05 - 2017 / 04
+
+Project "Training at Decentralized Autonomous Governments"
+
+* Capturing GNSS data to be used during trainings
+* Training technicians at Decentralized Autonomous Governments (GADs) about using GNSS and GIS software
+
+## Publications {.hasAnchor data-icon=file}
+
+### Assessing the Horizontal Positional Accuracy in OpenStreetMap: a Big Data Approach
+
+Castro R., Tierra A., Luna M.
+
+N/A
+
+2019 / 03
+
+Conference paper in "Advances in Intelligent Systems and Computing" vol. 931 no. 2
+`r lod("10.1007/978-3-030-16184-2_49")`
+`r lol("332085963_Assessing_the_Horizontal_Positional_Accuracy_in_OpenStreetMap_A_Big_Data_Approach")`
+
+::: aside
+Portfolio
+
+Potatoes
+:::
+
+### Análisis de la Serie Temporal de la Estación de Monitoreo Continuo CUEC -- REGME
+
+Luna M., Castro R. et al.
+
+N/A
+
+2018 / 12
+
+Paper in "Revista Geoespacial" vol. 15 no. 2 `r lod("10.24133/geoespacial.v15i2.1281")`
+
+### Análisis Exploratorio de Datos Geográficos Voluntarios: estudio de caso en la administración [...]
+
+Castro R., Luna M.
+
+N/A
+
+2018 / 11
+
+Conference paper in "Latin American Journal of Computing" vol. 5 no. 2 `r lod("10.5281/zenodo.5708276")`
+
+### Capture and Processing of Geospatial Data with Laser Scanner System for 3DModeling and Virtual [...]
+
+Basantes J., Castro R. et al.
+
+N/A
+
+2017 / 10
+
+Conference paper in "IEEE Ecuador Technical Chapters Meeting" vol. 2 no. 1
+`r x <- "321572863_Capture_and_Processing_of_Geospatial_Data_with_L"; lod("10.1109/ETCM.2017.8247455")`
+`r x <- paste0(x, "aser_Scanner_System_for_3D_Modeling_and_Virtual_Reality_of_Amazonian_Caves"); lol(x)`
+
+## Talks {.hasAnchor data-icon=microphone data-concise=false}
+
+### Open Data Day Quito
+
+Datalat Foundation
+
+Quito, EC
+
+2020 / 03
+
+Presented the talk "Contribuciones a OSM en Ecuador: antes y después del terremoto 16A"
+`r low("https://www.datalat.org/eventosdatalat#opendata")`
+`r los("2020/contribuciones-a-openstreetmap-en-ecuador-post")`
+
+### 7th World Conference on Information Systems and Technologies
+
+WorldCIST Organization
+
+La Toja, ES
+
+2019 / 04
+
+Presented the paper "Assessing the Horizontal Positional Accuracy in OpenStreetMap: a Big Data Approach"
+`r low("http://worldcist.org/2019")`
+
+### 9th JISIC Conference
+
+National Polytechnic School -- EPN
+
+Quito, EC
+
+2018 / 10
+
+Presented the paper "Análisis Exploratorio de Datos Geográficos Voluntarios: estudio de caso en la
+administración zonal Manuela Sáenz de Quito"
+`r low("https://jisic.epn.edu.ec/eventosAnteriores/JISIC2018/index.php/es")`
+
+### 5th Argentinean Congress of Speleology
+
+Argentinean Speleology Federation -- FADE
+
+Malargüe, AR
+
+2016 / 08
+
+Presented the talk "Captura y procesamiento de datos LiDAR para modelamiento 3D de cuevas"
