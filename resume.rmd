@@ -19,10 +19,6 @@ lol <- \(x) { paste0("https://www.researchgate.net/publication/", x) |> link_out
 lor <- \(x) { paste0("https://github.com/ruevko/", x) |> link_output("repository") }
 los <- \(x) { paste0("https://ruevko.github.io/slides/", x) |> link_output("slides") }
 low <- \(x) { link_output(x, "website") }
-
-# write bio
-# lists 2nd lines
-# write portfolio
 ```
 
 # Aside
@@ -61,6 +57,10 @@ Made with the R package [pagedown](https://github.com/rstudio/pagedown)
 # Main
 
 ## Roger Rafael Castro Zambrano {#title}
+
+An engineer with a background in geoinformation technologies, nowadays I strive to master R and other
+programming tools, in order to better understand spatial phenomena. I am eager to produce educational
+and scientific contents, since my goal is to develop an academic career.
 
 ## Education {.hasAnchor data-icon=graduation-cap data-concise=false}
 
@@ -138,12 +138,6 @@ N/A
 Conference paper in "Advances in Intelligent Systems and Computing" vol. 931 no. 2
 `r lod("10.1007/978-3-030-16184-2_49")`
 `r lol("332085963_Assessing_the_Horizontal_Positional_Accuracy_in_OpenStreetMap_A_Big_Data_Approach")`
-
-::: aside
-Portfolio
-
-Potatoes
-:::
 
 ### Análisis de la Serie Temporal de la Estación de Monitoreo Continuo CUEC -- REGME
 

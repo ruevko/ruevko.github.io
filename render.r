@@ -14,3 +14,5 @@ for (pkg in c("rmarkdown", "pagedown", "postcards")) {
 rmarkdown::render("index.rmd", output_dir = "docs")
 # render resume page
 rmarkdown::render("resume.rmd", output_dir = "docs")
+# preview resume page
+# xaringan::infinite_moon_reader("resume.rmd")
