@@ -23,8 +23,6 @@ low <- \(x) { link_output(x, "website") }
 
 # Aside
 
-![](https://github.com/identicons/ruevko.png)
-
 ## Contact
 
 * <i class="fas fa-envelope-square"></i> roger-castro-zambrano@pm.me
@@ -33,24 +31,18 @@ low <- \(x) { link_output(x, "website") }
 * <i class="fab fa-github-square"></i> https://github.com/ruevko
 * <i class="fas fa-external-link-square-alt"></i> https://ruevko.github.io
 
-## Skills
+## Language Skills {.hasAnchor}
 
-* Programming with R language, RStudio IDE, the tidyverse, and geospatial R packages (sf, raster, spdep,
-  tmap, among others)
+<i class="fas fa-check-square"></i> *Spanish:* native
 
-* Use of GIS (QGIS, ArcMap) and remote sensing (ERDAS) software
-
-* Processing OpenStreetMap data and querying with the Overpass API
-
-* Use of git and management of GitHub repositories and workflows
-
-* Use of various programming tools (Bash, Ubuntu, R Markdown, Hugo, Jekyll, SQL, among others)
-
-* Native Spanish and advanced English (Grade A in the Certificate in Advanced English) speaker
+<i class="fas fa-check-square"></i> *English:* advanced
+(Grade A in the Certificate in Advanced English)
 
 ## Disclaimer
 
 Last updated on `r as.character(Sys.Date(), "%Y / %m / %d")`
+
+Don't print this resume! It's [online](https://ruevko.github.io/resume.html)
 
 Made with the R package [pagedown](https://github.com/rstudio/pagedown)
 
@@ -87,7 +79,15 @@ Manta, EC
 
 current - 2021 / 05
 
-Planimetric and topographic surveying of urban plots
+Performed the following activities in several land plots located in the Manta Municipality
+
+* Planimetric survey with Total Station to obtain boundaries
+* Stakeout of points with Total Station to rectify boundaries or subdivide plots
+* Design of proposals to subdivide Macro Plots between many stakeholders, by using CAD Software
+* Survey and stakeout of high-accuracy points, by using a GNSS Antenna applying the RTK Method and
+  NTRIP Protocol
+* Training technicians of the company about CRS Coordinate Systems and operation of the GNSS Antenna
+
 
 ### Intern
 
@@ -124,6 +124,23 @@ Project "Training at Decentralized Autonomous Governments"
 
 * Capturing GNSS data to be used during trainings
 * Training technicians at Decentralized Autonomous Governments (GADs) about using GNSS and GIS software
+
+::: aside
+TECHNICAL SKILLS
+
+Programming with R language, RStudio IDE, the tidyverse, and geospatial R packages (sf, raster, spdep,
+tmap and others)
+
+Use of GIS (QGIS, ArcMap) and remote sensing (ERDAS) software
+
+Processing OpenStreetMap data and querying with the Overpass API
+
+Use of git and management of GitHub repositories and workflows
+
+Operating Total Station and GNSS Antenna for surveying applications
+
+Use of GNU/Linux OS (Ubuntu, Debian) and related tools (bash, apt, grub, Gnome and others)
+:::
 
 ## Publications {.hasAnchor data-icon=file}
 
@@ -171,19 +188,18 @@ Conference paper in "IEEE Ecuador Technical Chapters Meeting" vol. 2 no. 1
 `r x <- "321572863_Capture_and_Processing_of_Geospatial_Data_with_L"; lod("10.1109/ETCM.2017.8247455")`
 `r x <- paste0(x, "aser_Scanner_System_for_3D_Modeling_and_Virtual_Reality_of_Amazonian_Caves"); lol(x)`
 
-## Talks {.hasAnchor data-icon=microphone data-concise=false}
+::: aside
+PROJECTS
 
-### Open Data Day Quito
+*La Galería Hexagonal:* a blog in spanish about data analysis
+`r lor("hexagonal")`
+`r low("https://ruevko.github.io/hexagonal")`
 
-Datalat Foundation
+*Weekly OSM:* automated weekly updates of OSMstats by country 
+`r lor("weekly-osm")`
+:::
 
-Quito, EC
-
-2020 / 03
-
-Presented the talk "Contribuciones a OSM en Ecuador: antes y después del terremoto 16A"
-`r low("https://www.datalat.org/eventosdatalat#opendata")`
-`r los("2020/contribuciones-a-openstreetmap-en-ecuador-post")`
+## Selected Talks {.hasAnchor data-icon=microphone}
 
 ### 7th World Conference on Information Systems and Technologies
 
@@ -207,6 +223,18 @@ Quito, EC
 Presented the paper "Análisis Exploratorio de Datos Geográficos Voluntarios: estudio de caso en la
 administración zonal Manuela Sáenz de Quito"
 `r low("https://jisic.epn.edu.ec/eventosAnteriores/JISIC2018/index.php/es")`
+
+::: aside
+REFERENCES
+
+*Fabián Rodríguez Espinosa*
+Professor at University of the Armed Forces -- ESPE
+ffrodriguez3@espe.edu.ec
+
+*Mónica Elizabeth Reyes Mora*
+General Manager at Constructora Inmobiliaria R&M Ltd.
+monireyes165@gmail.com
+:::
 
 ### 5th Argentinean Congress of Speleology
 
