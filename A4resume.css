@@ -383,19 +383,20 @@ h1, h2{
   line-height: 1.75;
 }
 
-#contact li > i{
+#contact li > i,
+#language-skills i{ /*ini*/
   width: 0.9rem; /* for text alignment */
-  text-align: right;
+  /*text-align: right;ini*/
 }
 /*
 #skills{
   line-height: 1.5;
-}ini*/
+}
 
 #skills ul{
   margin: 0.05in 0 0.15in;
   padding: 0;
-}
+}ini*/
 
 #disclaimer{
   position: absolute;
