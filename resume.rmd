@@ -23,10 +23,12 @@ low <- \(x) { link_output(x, "website") }
 
 # Aside
 
+![](me.jpg)
+
 ## Contact
 
-* <i class="fas fa-envelope-square"></i> roger-castro-zambrano@pm.me
 * <i class="fas fa-envelope-square"></i> rrcastro1@espe.edu.ec
+* roger-castro-zambrano@proton.me
 * <i class="fab fa-twitter-square"></i> https://twitter.com/ruevko
 * <i class="fab fa-github-square"></i> https://github.com/ruevko
 * <i class="fas fa-external-link-square-alt"></i> https://ruevko.github.io
@@ -35,8 +37,8 @@ low <- \(x) { link_output(x, "website") }
 
 <i class="fas fa-check-square"></i> *Spanish:* native
 
-<i class="fas fa-check-square"></i> *English:* advanced
-(Grade A in the Certificate in Advanced English)
+<i class="fas fa-check-square"></i> *English:* advanced <br>
+(awarded Grade A in Cambridge's Certificate in Advanced English)
 
 ## Disclaimer
 
@@ -77,7 +79,7 @@ Constructora Inmobiliaria R&M Ltd.
 
 Manta, EC
 
-current - 2021 / 05
+2023 / 04 - 2021 / 05
 
 Performed the following activities in several land plots located in the Manta Municipality
 
@@ -139,7 +141,7 @@ Use of git and management of GitHub repositories and workflows
 
 Operating Total Station and GNSS Antenna for surveying applications
 
-Use of GNU/Linux OS (Ubuntu, Debian) and related tools (bash, apt, grub, Gnome and others)
+Use of GNU/Linux OS (Debian, Ubuntu) and related tools (bash, apt, grub, Gnome and others)
 :::
 
 ## Publications {.hasAnchor data-icon=file}
@@ -191,15 +193,17 @@ Conference paper in "IEEE Ecuador Technical Chapters Meeting" vol. 2 no. 1
 ::: aside
 PROJECTS
 
-*La Galería Hexagonal:* a blog in spanish about data analysis
+*La Galería Hexagonal* <br>
+A blog about cartography and data analysis with R (currently dormant)
 `r lor("hexagonal")`
 `r low("https://ruevko.github.io/hexagonal")`
 
-*Weekly OSM:* automated weekly updates of OSMstats by country 
+*Weekly OSM* <br>
+A repository that stores weekly data about OSMstats by country
 `r lor("weekly-osm")`
 :::
 
-## Selected Talks {.hasAnchor data-icon=microphone}
+## Selected Conferences {.hasAnchor data-icon=microphone}
 
 ### 7th World Conference on Information Systems and Technologies
 
@@ -227,11 +231,11 @@ administración zonal Manuela Sáenz de Quito"
 ::: aside
 REFERENCES
 
-*Fabián Rodríguez Espinosa*
+*Fabián Rodríguez Espinosa* <br>
 Professor at University of the Armed Forces -- ESPE
 ffrodriguez3@espe.edu.ec
 
-*Mónica Elizabeth Reyes Mora*
+*Mónica Elizabeth Reyes Mora* <br>
 General Manager at Constructora Inmobiliaria R&M Ltd.
 monireyes165@gmail.com
 :::
