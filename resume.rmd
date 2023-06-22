@@ -141,7 +141,7 @@ Use of git and management of GitHub repositories and workflows
 
 Operating Total Station and GNSS Antenna for surveying applications
 
-Use of GNU/Linux OS (Debian, Ubuntu) and related tools (bash, apt, grub, Gnome and others)
+Use of GNU/Linux OS (Debian, LMDE, Ubuntu) and related tools (bash, apt, grub, Gnome and others)
 :::
 
 ## Publications {.hasAnchor data-icon=file}
@@ -214,7 +214,7 @@ La Toja, ES
 2019 / 04
 
 Presented the paper "Assessing the Horizontal Positional Accuracy in OpenStreetMap: a Big Data Approach"
-`r low("http://worldcist.org/2019")`
+`r low("https://web.archive.org/web/20191221143242/http://www.worldcist.org/2019/index.php")`
 
 ### 9th JISIC Conference
 
@@ -225,7 +225,7 @@ Quito, EC
 2018 / 10
 
 Presented the paper "Análisis Exploratorio de Datos Geográficos Voluntarios: estudio de caso en la
-administración zonal Manuela Sáenz de Quito"
+administración [...]"
 `r low("https://jisic.epn.edu.ec/eventosAnteriores/JISIC2018/index.php/es")`
 
 ::: aside
