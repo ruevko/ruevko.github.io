@@ -1,0 +1,253 @@
+---
+title: "Currículum Vitae de Roger Rafael Castro Zambrano"
+author: "Roger Rafael Castro Zambrano"
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    anchor_sections:
+      depth: 0
+    css: A4resume.css
+    lib_dir: docs/lib
+    mathjax: NULL
+    self_contained: FALSE
+---
+
+```{r, echo=FALSE}
+link_output <- \(link, text = "acceso abierto") { paste0("[[", text, "]](", link, ")") }
+lod <- \(x) { paste0("https://doi.org/", x) |> link_output("DOI") }
+lol <- \(x) { paste0("https://www.researchgate.net/publication/", x) |> link_output() }
+lor <- \(x) { paste0("https://github.com/ruevko/", x) |> link_output("repositorio") }
+los <- \(x) { paste0("https://ruevko.github.io/slides/", x) |> link_output("diapositivas") }
+low <- \(x) { link_output(x, "sitio web") }
+```
+
+# Aside
+
+![](me.jpg)
+
+*Estado civil:* soltero
+
+*Fecha de nacimiento:* 06 / 09 / 94
+
+*Cédula de identidad:* 1313816637
+
+*Registro Senescyt:* 1079-2019-2120009
+
+## Contacto
+
+* <i class="fas fa-envelope-square"></i> castro.z.r2@gmail.com
+* <i class="fas fa-envelope-square"></i> rrcastro1@espe.edu.ec
+* <i class="fab fa-twitter-square"></i> https://twitter.com/ruevko
+* <i class="fab fa-github-square"></i> https://github.com/ruevko
+* <i class="fas fa-external-link-square-alt"></i> https://ruevko.github.io
+
+## Habilidades Lingüísticas
+
+<i class="fas fa-check-square"></i> *Español:* nativo
+
+<i class="fas fa-check-square"></i> *Inglés:* avanzado <br>
+(Grado A en el Certificate in Advanced English de Cambridge)
+
+## Disclaimer
+
+Last updated on `r as.character(Sys.Date(), "%d / %m / %y")`
+
+Don't print this resume! It's [online](https://ruevko.github.io/resume-es.html)
+
+Made with the R package [pagedown](https://github.com/rstudio/pagedown)
+
+# Main
+
+## Roger Rafael Castro Zambrano {#title}
+
+Ingeniero con experiencia usando tecnologías de geoinformación, actualmente perfeccionando
+el uso de R y otras herramientas programativas, para así analizar fenómenos espaciales de
+manera más eficiente. Me interesa crear contenidos educativos y científicos, pues mi meta
+es desarrollar una carrera académica.
+
+## Educación {data-icon=graduation-cap data-concise=false}
+
+### Ingeniero Geógrafo y del Medio Ambiente
+
+Universidad de las Fuerzas Armadas ESPE
+
+Sangolquí, EC
+
+2019 / 07 - 2012 / 09
+
+Tesis "Evaluación de la Exactitud Posicional Horizontal e Inferencia de la Escala sobre
+Datos Libres OSM en Administraciones Zonales del DMQ"
+[[repo]](http://repositorio.espe.edu.ec/handle/21000/20562)
+`r los("2019/exactitud-posicional-horizontal-e-inferencia-de-escala-sobre-datos-libres-osm-post")`
+
+## Experiencia {data-icon=suitcase data-concise=false}
+
+### Topógrafo
+
+Constructora Inmobiliaria R&M Cía. Ltda.
+
+Manta, EC
+
+2023 / 04 - 2021 / 05
+
+Ha realizado las siguientes actividades en varios lotes ubicados en el Municipio de Manta
+
+* Levantamiento planimétrico y replanteo con Estación Total para obtención, rectificación o
+  subdivisión de lotes
+* Diseño con software CAD de propuestas para subdividir macrolotes entre partes interesadas
+* Levantamiento y replanteo de puntos de alta exactitud con antena GNSS, aplicando Método
+  RTK y Protocolo NTRIP
+* Entrenamiento de técnicos de la compañía sobre Sistemas de Coordenadas CRS y operación de
+  la Antena GNSS
+
+### Pasante
+
+Instituto Espacial Ecuatoriano IEE
+
+Quito, EC
+
+2018 / 03 - 2018 / 01
+
+Proyecto "Implementación de una infraestructura tecnológica para entrenamiento en líneas de
+investigación del IEE"
+
+* Recolección de información y preparación de materiales de entrenamiento para un curso
+  virtual sobre el mejoramiento de la calidad de imágenes satelitales
+* Preparación de evaluaciones de acuerdo a formatos del IEE
+
+Proyecto “Determinación de movimientos potenciales en masa para prevención de desastres
+usando MDT e imágenes satelitales en la carretera Alóag – Santo Domingo”
+
+* Recolección de información, elaboración del mapa de pendientes de acuerdo al MDT, y
+  reclasificación en rangos de pendientes
+* Elaboración de mapas de cobertura para dos épocas, determinación de cambios de cobertura,
+  y análisis de acuerdo a eventos ocurridos en la carretera
+* Elaboración de un modelo cartográfico para determinar movimientos en masa potenciales y
+  análisis de resultados
+
+### Pasante
+
+Technical Cooperation between Ecuador and the Federal Republic of Germany GIZ
+
+Quito, EC
+
+2017 / 05 - 2017 / 04
+
+Proyecto "Entrenamiento en Gobiernos Autónomos Descentralizados"
+
+* Captura de datos GNSS para utilizar en los entrenamientos
+* Entrenamiento de técnicos en Gobiernos Autónomos Descentralizados sobre el uso de software
+  GNSS y SIG
+
+::: aside
+HABILIDADES TÉCNICAS
+
+Programación con lenguaje R, IDE RStudio, tidyverse, y paquetes R geoespaciales (sf, raster,
+spdep, tmap entre otros)
+
+Uso de software GIS (QGIS, ArcMap) y de teledetección (ERDAS)
+
+Análisis de datos OpenStreetMap y consultas con la API Overpass
+
+Uso de git y administración de repositorios y workflows de GitHub
+
+Operación de Estación Total y Antena GNSS para aplicaciones topográficas
+
+Uso de OS GNU/Linux (Debian, LMDE, Ubuntu) y herramientas relacionadas (bash, apt, grub,
+Gnome entre otros)
+:::
+
+## Publicaciones {data-icon=file}
+
+### Assessing the Horizontal Positional Accuracy in OpenStreetMap: a Big Data Approach
+
+Castro R., Tierra A., Luna M.
+
+N/A
+
+2019 / 03
+
+Conference paper en "Advances in Intelligent Systems and Computing" vol. 931 no. 2
+`r lod("10.1007/978-3-030-16184-2_49")`
+`r lol("332085963_Assessing_the_Horizontal_Positional_Accuracy_in_OpenStreetMap_A_Big_Data_Approach")`
+
+### Análisis de la Serie Temporal de la Estación de Monitoreo Continuo CUEC -- REGME
+
+Luna M., Castro R. et al.
+
+N/A
+
+2018 / 12
+
+Paper en "Revista Geoespacial" vol. 15 no. 2 `r lod("10.24133/geoespacial.v15i2.1281")`
+
+### Análisis Exploratorio de Datos Geográficos Voluntarios: estudio de caso en la [...]
+
+Castro R., Luna M.
+
+N/A
+
+2018 / 11
+
+Conference paper en "Latin American Journal of Computing" vol. 5 no. 2 `r lod("10.5281/zenodo.5708276")`
+
+### Capture and Processing of Geospatial Data with Laser Scanner System for 3D Modeling [...]
+
+Basantes J., Castro R. et al.
+
+N/A
+
+2017 / 10
+
+Conference paper en "IEEE Ecuador Technical Chapters Meeting" vol. 2 no. 1
+`r x <- "321572863_Capture_and_Processing_of_Geospatial_Data_with_L"; lod("10.1109/ETCM.2017.8247455")`
+`r x <- paste0(x, "aser_Scanner_System_for_3D_Modeling_and_Virtual_Reality_of_Amazonian_Caves"); lol(x)`
+
+## Conferencias Seleccionadas {data-icon=microphone}
+
+### 7ma World Conference on Information Systems and Technologies
+
+Organización WorldCIST
+
+La Toja, ES
+
+2019 / 04
+
+Presentó el paper "Assessing the Horizontal Positional Accuracy in OpenStreetMap: a Big
+Data Approach"
+`r low("https://web.archive.org/web/20191221143242/http://www.worldcist.org/2019/index.php")`
+
+::: aside
+REFERENCIAS
+
+*Fabián Rodríguez Espinosa* <br>
+Profesor en la Universidad de las Fuerzas Armadas -- ESPE
+ffrodriguez3@espe.edu.ec
+
+*Mónica Elizabeth Reyes Mora* <br>
+Gerente General en Constructora Inmobiliaria R&M Cía Ltda.
+monireyes165@gmail.com
+:::
+
+### 9ma Conferencia JISIC
+
+Escuela Politécnica Nacional EPN
+
+Quito, EC
+
+2018 / 10
+
+Presentó el paper "Análisis Exploratorio de Datos Geográficos Voluntarios: estudio de caso
+en la [...]"
+`r low("https://jisic.epn.edu.ec/eventosAnteriores/JISIC2018/index.php/es")`
+
+### 5to Congreso Argentino de Espeleología
+
+Federación Argentina de Espeleología FADE
+
+Malargüe, AR
+
+2016 / 08
+
+Presentó la conferencia "Captura y procesamiento de datos LiDAR para modelamiento 3D de
+cuevas"
