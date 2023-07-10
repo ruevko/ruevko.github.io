@@ -133,8 +133,6 @@ Quito, EC
 
 2017 / 05 - 2017 / 04
 
-Proyecto "Entrenamiento en Gobiernos Autónomos Descentralizados"
-
 * Captura de datos GNSS para utilizar en los entrenamientos
 * Entrenamiento de técnicos en Gobiernos Autónomos Descentralizados sobre el uso de software
   GNSS y SIG
@@ -181,7 +179,7 @@ N/A
 
 Paper en "Revista Geoespacial" vol. 15 no. 2 `r lod("10.24133/geoespacial.v15i2.1281")`
 
-### Análisis Exploratorio de Datos Geográficos Voluntarios: estudio de caso en la [...]
+### Análisis Exploratorio de Datos Geográficos Voluntarios: estudio de caso en la administración [...]
 
 Castro R., Luna M.
 
@@ -238,7 +236,7 @@ Quito, EC
 2018 / 10
 
 Presentó el paper "Análisis Exploratorio de Datos Geográficos Voluntarios: estudio de caso
-en la [...]"
+en la administración [...]"
 `r low("https://jisic.epn.edu.ec/eventosAnteriores/JISIC2018/index.php/es")`
 
 ### 5to Congreso Argentino de Espeleología
