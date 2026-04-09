@@ -89,7 +89,7 @@ img{
 #main{
   width: var(--main-width);
   padding: 0 0.25in 0 0.25in;
-  font-size: 0.7rem;
+  font-size: 0.666rem;
   float: left;
 }
 
@@ -101,7 +101,7 @@ img{
 .aside{
   width: var(--sidebar-width);
   padding: 0.6in var(--sidebar-horizontal-padding);
-  font-size: 0.7rem;/*0.8ini*/
+  font-size: 0.666rem;/*0.8ini*/
   float: right;
   position: absolute;
   right: 0;
